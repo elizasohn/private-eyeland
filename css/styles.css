@@ -5,7 +5,7 @@ body {
 h1 {
   text-align: center;
   font-size: 60px;
-  font-family: cursive;
+  font-family: fantasy;
   color: #e8dae1;
 }
 
@@ -14,7 +14,7 @@ nav {
 }
 nav a {
   margin: 5px 20px 50px 20px;
-  font-family:sans-serif;
+  font-family:serif;
   font-size:18px;
   color: #bfaec2;
 }
@@ -22,7 +22,7 @@ nav a {
 p {
   margin-top:60px;
   margin-bottom:60px;
-  font-family: sans-serif;
+  font-family: serif;
   font-size:20px;
   color: #f3ffed;
 }
@@ -33,9 +33,10 @@ img {
 }
 
 li {
-  font-family: sans-serif;
+  font-family: serif;
   font-size: 24px;
   font-weight: bold;
+  font-style: italic;
   margin-top: 50px;
   margin-bottom: 20px;
   color: #ffdbdc;
@@ -46,4 +47,11 @@ ul p{
   margin-bottom: 60px;
   width: 250px;
   margin-right: 100px;
+  font-style: italic;
+}
+
+strong {
+  background-color: yellow;
+  color: red;
+  font-size: 22px; 
 }
